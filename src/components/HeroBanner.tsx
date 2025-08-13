@@ -27,7 +27,7 @@ const HeroBanner = () => {
       description: "با محصولات سرمایه‌گذاری بانک ملت و نرخ سود تا ۲۵٪، آینده‌ای مطمئن و پردرآمد بسازید",
       features: ["سود تا ۲۵٪", "سرمایه تضمینی", "مشاوره رایگان"],
       cta: "شروع سرمایه‌گذاری",
-      backgroundImage: "https://bankmellat.ir/_DouranPortal/Album/News/23570567-d913-4206-b797-b261bf695b40_14040519_103009.jpg"
+      backgroundImage: "/src/assets/Herobanner/mellat-saipa-hero.jpg"
     },
     {
       title: "رمز ارز و پرداخت دیجیتال",

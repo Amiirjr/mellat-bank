@@ -97,7 +97,7 @@ const NotificationBar = () => {
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
               <a 
-                href="/about" 
+                href="/#/about" 
                 className="text-red-500 font-bold cursor-pointer flex items-center"
               >
                 <svg 

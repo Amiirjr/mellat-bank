@@ -23,9 +23,9 @@ const AffiliatedCompanies = () => {
     },
     {
       id: 2,
-      name: "لیزینگ ملت",
-      description: "خدمات لیزینگ و اجاره",
-      logo: mellatLeasingLogo
+      name: "به پرداخت ملت",
+      description: "راه‌حل‌های فناوری مالی",
+      logo: mellatPaymentLogo
     },
     {
       id: 3,
@@ -47,9 +47,9 @@ const AffiliatedCompanies = () => {
     },
     {
       id: 6,
-      name: "فناوری ملت",
-      description: "راه‌حل‌های فناوری مالی",
-      logo: mellatPaymentLogo
+      name: "لیزینگ ملت",
+      description: "خدمات لیزینگ و اجاره",
+      logo: mellatLeasingLogo
     }
   ];
 

@@ -71,7 +71,7 @@ const MainNavigation = () => {
 
   return (
     <>
-      <nav className={`transition-all duration-500 z-40 bg-gray-100 shadow-lg border-b border-gray-300`}> 
+      <nav className={`transition-all duration-500 z-40 bg-gray-200 shadow-lg border-b border-gray-300`}> 
         <div className="container mx-auto px-6">
           <div className="flex justify-center items-center">
             <ul className="flex space-x-0 space-x-reverse">
@@ -98,7 +98,7 @@ const MainNavigation = () => {
                     </button>
 
                     {/* Simple Dropdown Menu */}
-                    <div className={`absolute top-full right-0 w-64 bg-gray-200 shadow-xl border border-gray-300 rounded-lg transition-all duration-300 transform ${
+                    <div className={`absolute top-full right-0 w-64 bg-gray-100 shadow-xl border border-gray-300 rounded-lg transition-all duration-300 transform ${
                       activeMenu === index 
                         ? 'opacity-100 visible translate-y-0' 
                         : 'opacity-0 invisible translate-y-2'

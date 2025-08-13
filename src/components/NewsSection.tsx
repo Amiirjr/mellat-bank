@@ -9,7 +9,7 @@ const NewsSection = () => {
     readTime: "۳ دقیقه",
     views: "۲,۳۴۵",
     category: "اقتصادی",
-    image: "https://bankmellat.ir/_DouranPortal/Album/News/445af8fe-2a04-4d0b-a7ac-938654dd0eb3_14040230_170927.jpg",
+    image: "src/assets/news/mellat-main-cover.jpg",
     isHot: true
   };
 
@@ -32,7 +32,7 @@ const NewsSection = () => {
       readTime: "۱ دقیقه",
       views: "۳,۱۲۱",
       category: "خدمات بانکی",
-      image: "https://bankmellat.ir/_douranportal/images/news/1404/04/card1404-04-18.jpg"
+      image: "/src/assets/news/design-card-cover.jpg"
     },
     {
       id: 4,
@@ -188,10 +188,9 @@ const NewsSection = () => {
         <div className="text-center">
           <a
             href="#"
-            className="inline-flex items-center gap-3 bg-gradient-to-r from-primary to-primary/80 text-white px-8 py-4 rounded-xl font-medium hover:shadow-lg hover:shadow-primary/25 transition-all transform hover:scale-105"
+            className="inline-block bg-red-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-red-600 transition-transform transform hover:scale-105 text-center"
           >
-            <span>مشاهده آرشیو کامل اخبار</span>
-            <ArrowLeft size={20} />
+            مشاهده آرشیو کامل اخبار
           </a>
         </div>
       </div>

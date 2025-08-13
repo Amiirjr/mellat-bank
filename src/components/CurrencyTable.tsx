@@ -151,7 +151,7 @@ const CurrencyTable = () => {
           </div>
           
           <div className="text-center mt-8 space-y-4">
-            <button className="bg-primary text-white px-8 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors">
+            <button className="inline-block bg-red-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-red-600 transition-transform transform hover:scale-105">
               مشاهده همه ارزها
             </button>
             <p className="text-sm text-muted-foreground">
