@@ -1,27 +1,42 @@
-# Welcome to your **Mellat Bank** project
+# پروژه **بانک ملت**
 
-## Project info
+## معرفی پروژه
+این پروژه یک **وب‌سایت بانکی شبیه بانک ملت** است که با هدف تمرین و ارائه نمونه پروژه دانشجویی ساخته شده است.  
+در این پروژه دو صفحه اصلی وجود دارد:  
+1. **صفحه اصلی**: شامل بخش‌های خدمات، آیکون‌ها و ناوبری اصلی.  
+2. **صفحه درباره من**: شامل اطلاعات دانشجویی و توضیحات درباره پروژه و نحوه پیاده‌سازی آن.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## تصاویر پروژه
+در این بخش می‌توانید شات‌هایی از صفحات پروژه قرار دهید:
 
-Follow these steps:
+![صفحه اصلی](./screenshots/home.png)  
+![صفحه درباره من](./screenshots/about.png)  
+
+---
+
+## لینک دمو زنده
+برای مشاهده دمو آنلاین پروژه:  
+[مشاهده دمو](https://your-live-demo-link.com)
+
+---
+
+## توضیحات فنی
+این پروژه با استفاده از تکنولوژی‌های زیر ساخته شده است:  
+
+- **Vite**: برای ساخت سریع و مدرن پروژه  
+- **TypeScript**: برای تایپ ایمن و جلوگیری از خطاهای زمان اجرا  
+- **React**: برای ایجاد کامپوننت‌ها و مدیریت UI  
+- **Tailwind CSS**: برای استایل سریع و قابل سفارشی‌سازی  
+- **shadcn-ui**: برای اجزای UI آماده و زیبا  
+
+### نصب و اجرای پروژه به صورت محلی
+اگر می‌خواهید پروژه را در محیط محلی خود اجرا کنید، مراحل زیر را دنبال کنید:
 
 ```sh
-# Step 1: Install the necessary dependencies.
-npm i
+# نصب وابستگی‌ها
+npm install
 
-# Step 2: Start the development server with auto-reloading and an instant preview.
+# اجرای سرور توسعه با رفرش خودکار
 npm run dev
-```
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
