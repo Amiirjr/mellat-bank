@@ -1,4 +1,4 @@
-import { Search, Home, Globe, Bell, User } from "lucide-react";
+import { Search, Home, Globe, Bell, Wallet, UserRound } from "lucide-react";
 import { useState, useEffect } from "react";
 
 const NotificationBar = () => {
@@ -57,8 +57,8 @@ const NotificationBar = () => {
                   <Globe size={16} />
                   <span>EN</span>
                 </button>
-                <a href="/" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
-                  <Home size={16} />
+                <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
+                  <Wallet size={16} />
                 </a>
                 <button className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110">
                   <Search size={16} />
@@ -96,20 +96,13 @@ const NotificationBar = () => {
           
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
-              <a 
-                href="/mellat-bank/#/about" 
-                className="text-red-500 font-bold cursor-pointer flex items-center"
-              >
-                <svg 
-                  className="mr-2 w-6 h-6 text-red-500" 
-                  xmlns="http://www.w3.org/2000/svg" 
-                  fill="none" 
-                  viewBox="0 0 24 24" 
-                  stroke="currentColor"
-                >
-                  <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
-                </svg>
-                درباره من
+              <a
+                href="/mellat-bank/#/about"
+                className="text-red-500 font-bold cursor-pointer flex items-center group transition-colors duration-200 hover:text-red-600">
+                <UserRound className="mr-2 w-4 h-5 transition-transform duration-200 group-hover:scale-125" />
+                <span className="transition-transform duration-200 group-hover:scale-110">
+                  درباره من
+                </span>
               </a>
               <span className="hover:text-red-500 transition-all duration-300 cursor-pointer hover:scale-105 font-medium">
                 شعب
@@ -124,9 +117,11 @@ const NotificationBar = () => {
               <button className="p-2 rounded-full hover:bg-muted/50 transition-all duration-300 hover:scale-110">
                 <Bell size={18} className="text-muted-foreground hover:text-primary" />
               </button>
-              <button className="p-2 rounded-full hover:bg-muted/50 transition-all duration-300 hover:scale-110">
-                <User size={18} className="text-muted-foreground hover:text-primary" />
-              </button>
+              <a
+                href="#"
+                className="p-2 rounded-full hover:bg-muted/50 transition-all duration-300 hover:scale-110">
+                <Home size={18} className="text-muted-foreground hover:text-primary" />
+              </a>
             </div>
           </div>
         </div>

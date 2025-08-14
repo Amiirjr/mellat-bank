@@ -2,6 +2,8 @@ import { Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, ExternalLi
 
 const Footer = () => {
   const quickLinks = [
+    { title: "صفحه اصلی", href: "#" },
+    { title: "درباره من", href: "/mellat-bank/#/about" },
     { title: "همراه بانک ملت", href: "#" },
     { title: "اینترنت بانک", href: "#" },
     { title: "امضای دیجیتال", href: "#" },
@@ -9,10 +11,12 @@ const Footer = () => {
   ];
 
   const services = [
-    { title: "حساب‌های جاری و پس‌انداز", href: "#" },
-    { title: "تسهیلات و وام‌ها", href: "#" },
+    { title: "حساب جاری و پس‌انداز", href: "#" },
+    { title: "تسهیلات و وام", href: "#" },
     { title: "خدمات ارزی", href: "#" },
-    { title: "کارت‌های بانکی", href: "#" }
+    { title: "کارت‌های بانکی", href: "#" },
+    { title: "پرداخت قبوض", href: "#" },
+    { title: "سرمایه‌گذاری", href: "#" }
   ];
 
   const aboutLinks = [
