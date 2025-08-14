@@ -72,7 +72,7 @@ const NotificationBar = () => {
         <div className={`flex items-center justify-between transition-all duration-500 ${
           isScrolled ? 'py-3' : 'py-4'
         }`}>
-          <a href="/" className="flex items-center gap-4 hover:opacity-80 transition-opacity duration-300">
+          <a href="#" className="flex items-center gap-4 hover:opacity-80 transition-opacity duration-300">
             <img 
               src="https://fs.noorgram.ir/xen/2020/10/442_2be3e526e96286fa7b09a1705ddf40d5.png" 
               alt="Bank Logo" 
