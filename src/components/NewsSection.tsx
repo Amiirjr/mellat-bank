@@ -1,15 +1,19 @@
 import { Calendar, ArrowLeft, Eye, Clock, Tag, TrendingUp } from "lucide-react";
 
+import mellatMainCover from "@/assets/news/mellat-main-cover.jpg";
+import mellatCardCover from "@/assets/news/design-card-cover.jpg";
+
+
 const NewsSection = () => {
   const featuredNews = {
     id: 1,
     title: "بانک ملت رکورددار جذب سپرده در بانک‌های خصوصی",
     summary: "بانک ملت در سال ۱۴۰۳ با جذب بیش از ۵۰ هزار میلیارد تومان سپرده، رکورد جدیدی در میان بانک‌های خصوصی کشور ثبت کرد و توانست رشد ۱۵ درصدی نسبت به سال گذشته داشته باشد.",
-    date: "۲۵ مرداد ۱۴۰۳",
+    date: "۲۵ مرداد ۱۴۰۴",
     readTime: "۳ دقیقه",
     views: "۲,۳۴۵",
     category: "اقتصادی",
-    image: "src/assets/news/mellat-main-cover.jpg",
+    image: mellatMainCover,
     isHot: true
   };
 
@@ -18,7 +22,7 @@ const NewsSection = () => {
       id: 2,
       title: "راه‌اندازی سرویس‌های جدید در اپلیکیشن همراه بانک ملت",
       summary: "امکانات جدید شامل پرداخت قبوض، انتقال وجه سریع و مدیریت سبد سرمایه‌گذاری",
-      date: "۲۳ مرداد ۱۴۰۳",
+      date: "۲۳ مرداد ۱۴۰۴",
       readTime: "۲ دقیقه",
       views: "۱,۸۹۲",
       category: "فناوری",
@@ -28,17 +32,17 @@ const NewsSection = () => {
       id: 3,
       title: "طرح های جدید كارت هماهنگ با سلایق مشتریان در دستور كار بانك ملت",
       summary: "بانک ملت در پاسخ به استقبال مشتریان از کارت های جدید این بانک، ارائه طرح های جدید را هماهنگ با سلایق متنوع مشتریان در دستور کار قرار داده است.",
-      date: "۲۲ مرداد ۱۴۰۳",
+      date: "۲۲ مرداد ۱۴۰۴",
       readTime: "۱ دقیقه",
       views: "۳,۱۲۱",
       category: "خدمات بانکی",
-      image: "/src/assets/news/design-card-cover.jpg"
+      image: mellatCardCover
     },
     {
       id: 4,
       title: "برگزاری نمایشگاه خدمات بانکی ملت در تهران",
       summary: "نمایشگاه سه‌روزه خدمات بانکی با حضور مدیران ارشد بانک",
-      date: "۲۰ مرداد ۱۴۰۳",
+      date: "۲۰ مرداد ۱۴۰۴",
       readTime: "۲ دقیقه",
       views: "۹۸۷",
       category: "رویدادها",
