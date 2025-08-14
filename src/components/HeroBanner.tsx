@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
+import MellatSaipaHero from "@/assets/Herobanner/mellat-saipa-hero.jpg";
+
+
 const HeroBanner = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -27,7 +30,7 @@ const HeroBanner = () => {
       description: "با محصولات سرمایه‌گذاری بانک ملت و نرخ سود تا ۲۵٪، آینده‌ای مطمئن و پردرآمد بسازید",
       features: ["سود تا ۲۵٪", "سرمایه تضمینی", "مشاوره رایگان"],
       cta: "شروع سرمایه‌گذاری",
-      backgroundImage: "/src/assets/Herobanner/mellat-saipa-hero.jpg"
+      backgroundImage: MellatSaipaHero
     },
     {
       title: "رمز ارز و پرداخت دیجیتال",
