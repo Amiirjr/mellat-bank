@@ -55,7 +55,7 @@ npm run dev
 
 ## 🌐 لینک دمو زنده
 
-مشاهده دمو آنلاین: `https://amiirjr.github.io/mellat-bank`
+مشاهده دمو آنلاین: (https://amiirjr.github.io/mellat-bank)
 
 
 
